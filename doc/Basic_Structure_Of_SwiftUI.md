@@ -34,7 +34,7 @@ struct ContentViewPreviews: PreviewProvider {
 
 ContentView 파일을 확인하면 가장 상단에 import SwiftUI를 선언하여 프레임워크를 가져오고, View를 상속받는 ContentView 구조체가 선언되어 있습니다.
 
-`ContentView` 내부를 보면 body가 View 타입으로 선언되어 있지만 some이라는 키워드가 보입니다. `some`은 Swift 5.1에서 생긴 키워드로, 간단하게 말하자면 <u>특정한 조건을 만족하는 generic type의 View ❓❓</u>라고 할 수 있습니다.
+`ContentView` 내부를 보면 body가 View 타입으로 선언되어 있지만 some이라는 키워드가 보입니다. `some`은 Swift 5.1에서 생긴 키워드로, 간단하게 말하자면 **특정한 조건을 만족하는 generic type의 View ❓❓**라고 할 수 있습니다.
 
 **SwiftUI에서 View는 반드시 body 변수가 있어야 하며**, 이 body는 최상위 View의 역할을 합니다.
 
@@ -55,7 +55,7 @@ var body: some View {
 }
 ```
 
-<center> <img src="./basicStructureOfSwiftUI_example1.png" width=500 /> </center>
+<img src="./basicStructureOfSwiftUI_example1.png" width=500 />
 
 그럼 배경이 회색으로 바뀌고 텍스트뷰가 상단으로 올라간 걸 볼 수 있습니다.
 
@@ -131,7 +131,12 @@ struct ContentView: View {
 }
 ```
 
+<br />
+<br />
+
 ⭐️ SwiftUI에서는 `@State`가 붙은 변수에 변경이 일어나면 자동으로 View를 다시 렌더링하게 됩니다. 
+
+<br />
 
 <img src="./basicStructureOfSwiftUI_example3.png" width=500 />
 
