@@ -55,7 +55,7 @@ var body: some View {
 }
 ```
 
-<img src="./basicStructureOfSwiftUI_example1.png" width=500 />
+<img src="./image/basicStructureOfSwiftUI_example1.png" width=500 />
 
 그럼 배경이 회색으로 바뀌고 텍스트뷰가 상단으로 올라간 걸 볼 수 있습니다.
 
@@ -101,7 +101,7 @@ var body: some View {
 
 이렇게 Form 컨테이너를 `NavigationView` 컨테이너로 감싸주고 실행하게 되면 상단에 Title과 Navigation을 위한 공간이 생기게 됩니다. NavigationView는 기존의 UINavigationController 역할을 하는 컨테이너입니다. 그럼 아래와 같이 화면이 그려집니다.
 
-<img src="./basicStructureOfSwiftUI_example2.png" width=500 />
+<img src="./image/basicStructureOfSwiftUI_example2.png" width=500 />
 
 ❗️ 여기서 주의해야 할 점은 `navigationBarTitle()`을 NavigationView 태그의 끝이 아닌 Form 태그의 끝에 작성해야 합니다.
 
@@ -138,7 +138,7 @@ struct ContentView: View {
 
 <br />
 
-<img src="./basicStructureOfSwiftUI_example3.png" width=500 />
+<img src="./image/basicStructureOfSwiftUI_example3.png" width=500 />
 
 ## Reference
 * [SwiftUI 튜토리얼 1편. 기본구조 | medium](https://medium.com/harrythegreat/swiftui-%ED%8A%9C%ED%86%A0%EB%A6%AC%EC%96%BC-1%ED%8E%B8-%EA%B8%B0%EB%B3%B8%EA%B5%AC%EC%A1%B0-11e7b589e6de)
