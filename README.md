@@ -6,8 +6,8 @@ Learn how to use SwiftUI and practice SwiftUI by creating various screens.
 
 ## Example
 ### A. 회원가입 폼을 만들며 배우는 양방향 바인딩
+* Form, Section, Picker 다뤄보기
 * [코드 보기 (👉클릭)](./example/SignUp)
-* [스크린샷 보기 👉](./example/SignUp/screen.png)
 <details>
 <summary>스크린샷 보기 (👉클릭)</summary>
 <div markdown="1">
