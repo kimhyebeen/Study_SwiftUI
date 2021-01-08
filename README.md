@@ -15,7 +15,7 @@ Learn how to use SwiftUI and practice SwiftUI by creating various screens.
 <details>
 <summary>스크린샷 보기 (👉클릭)</summary>
 <div markdown="1">
-<img src="./example/SignUp/screen.png" width=350 />
+<img src="./example/SignUp/screen.png" width=250 />
 </div>
 </details>
 
@@ -28,7 +28,7 @@ Learn how to use SwiftUI and practice SwiftUI by creating various screens.
 <details>
 <summary>스크린샷 보기 (👉클릭)</summary>
 <div markdown="1">
-<img src="./example/StackExample/screen.png" width=350 />
+<img src="./example/StackExample/screen.png" width=250 />
 </div>
 </details>
 
@@ -42,7 +42,7 @@ Learn how to use SwiftUI and practice SwiftUI by creating various screens.
 <details>
 <summary>스크린샷 보기 (👉클릭)</summary>
 <div markdown="1">
-<img src="./example/SceneryList/screen.png" width=700 />
+<img src="./example/SceneryList/screen.png" width=500 />
 </div>
 </details>
 
@@ -55,7 +55,7 @@ Learn how to use SwiftUI and practice SwiftUI by creating various screens.
 <details>
 <summary>스크린샷 보기 (👉클릭)</summary>
 <div markdown="1">
-<img src="./example/SceneryList/screen.png" width=700 />
+<img src="./example/GradientDesign/screen.png" width=250 />
 </div>
 </details>
 
