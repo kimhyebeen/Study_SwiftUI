@@ -27,7 +27,7 @@ struct ContentView: View {
                 
                 Text(role).font(Font.system(size: 22))
                     .foregroundColor(Color("PaleGray").opacity(0.4))
-                    .padding(.bottom, 300+100)
+                    .padding(.bottom, 350+100)
             }
         }
     }
