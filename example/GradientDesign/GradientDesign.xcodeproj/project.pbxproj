@@ -13,6 +13,7 @@
 		EE55A13325A8BEBB00F7009C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE55A13225A8BEBB00F7009C /* Preview Assets.xcassets */; };
 		EE55A13E25A8BEBB00F7009C /* GradientDesignTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE55A13D25A8BEBB00F7009C /* GradientDesignTests.swift */; };
 		EE55A14925A8BEBB00F7009C /* GradientDesignUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE55A14825A8BEBB00F7009C /* GradientDesignUITests.swift */; };
+		EE55A15E25A8BF9700F7009C /* RoundedStar.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE55A15D25A8BF9700F7009C /* RoundedStar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		EE55A14425A8BEBB00F7009C /* GradientDesignUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GradientDesignUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE55A14825A8BEBB00F7009C /* GradientDesignUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientDesignUITests.swift; sourceTree = "<group>"; };
 		EE55A14A25A8BEBB00F7009C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE55A15D25A8BF9700F7009C /* RoundedStar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedStar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +97,7 @@
 		EE55A12A25A8BEBA00F7009C /* GradientDesign */ = {
 			isa = PBXGroup;
 			children = (
+				EE55A15C25A8BF8C00F7009C /* View */,
 				EE55A12B25A8BEBA00F7009C /* GradientDesignApp.swift */,
 				EE55A12D25A8BEBA00F7009C /* ContentView.swift */,
 				EE55A12F25A8BEBB00F7009C /* Assets.xcassets */,
@@ -128,6 +131,14 @@
 				EE55A14A25A8BEBB00F7009C /* Info.plist */,
 			);
 			path = GradientDesignUITests;
+			sourceTree = "<group>";
+		};
+		EE55A15C25A8BF8C00F7009C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EE55A15D25A8BF9700F7009C /* RoundedStar.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,6 +271,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EE55A12E25A8BEBA00F7009C /* ContentView.swift in Sources */,
+				EE55A15E25A8BF9700F7009C /* RoundedStar.swift in Sources */,
 				EE55A12C25A8BEBA00F7009C /* GradientDesignApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
