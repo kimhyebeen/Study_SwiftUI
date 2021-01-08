@@ -8,9 +8,7 @@
 import SwiftUI
 
 struct CardView: View {
-    var image: String = "profile"
-    var name: String = "name"
-    var role: String = "role / job"
+    var profile: Profile = Profile(name: "profile", role: "name", image: "role / job")
     
     var body: some View {
         ZStack {
@@ -23,17 +21,17 @@ struct CardView: View {
                         .frame(width: 35, height: 35)
                         .padding(15),
                     alignment: .topTrailing
-                )
+                ).opacity(0.9)
             
-            CircleImage(image: Image(image), width: 120, height: 120)
+            CircleImage(image: Image(profile.image), width: 120, height: 120)
                 .padding(.bottom, 70)
             
-            Text(name)
+            Text(profile.name)
                 .font(Font.system(size: 25))
                 .foregroundColor(Color("DarkGray"))
                 .padding(.top, 170)
             
-            Text(role)
+            Text(profile.role)
                 .font(Font.system(size: 20))
                 .foregroundColor(.gray)
                 .padding(.top, 250)

@@ -13,22 +13,27 @@ extension LinearGradient {
     }
 }
 
+let profiles: [Profile] = [Profile(name: "Emma Watson", role: "Movie Actor and Model", image: "ew"), Profile(name: "James Phelps", role: "Future Bank Account", image: "jp"), Profile(name: "Benedict Cumberbatch", role: "Revolut Account", image: "bc")]
+
 struct ContentView: View {
-    @State var name: String = "NAME"
-    @State var role: String = "Role / Job"
+    @State var index: Int = 0
     
     var body: some View {
         ZStack {
             LinearGradient(Color("CardBlue"), Color("CardPink")).ignoresSafeArea()
             
             VStack {
-                Text(name).font(Font.system(size: 40))
+                Text(profiles[index].name).font(Font.system(size: 40))
                     .foregroundColor(Color("PaleGray"))
                 
-                Text(role).font(Font.system(size: 22))
+                Text(profiles[index].role).font(Font.system(size: 22))
                     .foregroundColor(Color("PaleGray").opacity(0.4))
                     .padding(.bottom, 350+100)
+                
             }
+            
+            CardView(profile: profiles[index])
+                .padding(.top, 100)
         }
     }
 }
