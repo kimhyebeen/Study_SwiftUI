@@ -50,12 +50,12 @@ Learn how to use SwiftUI and practice SwiftUI by creating various screens.
 
 ### D. GradientDesign
 * 21.01.09
-* [10 financial ux design trends of 2021](https://medium.muz.li/10-financial-ux-design-trends-of-2021-that-will-transform-digital-banking-ba3777c77d54) 사이트에 있던 [어떤 이미지](./image/design_gradient_card.png)를 보고 디자인 영감을 받아 제작하였습니다.
+* 화면 디자인은 [10 financial ux design trends of 2021](https://medium.muz.li/10-financial-ux-design-trends-of-2021-that-will-transform-digital-banking-ba3777c77d54) 사이트에 있던 [어떤 이미지](./image/design_gradient_card.png)를 참고하였습니다.
 * [코드 보기 (👉클릭)](./example/GradientDesign)
 <details>
 <summary>스크린샷 보기 (👉클릭)</summary>
 <div markdown="1">
-<img src="./example/GradientDesign/screen.png" width=250 />
+<img src="./example/GradientDesign/screen.png" width=500 />
 </div>
 </details>
 
