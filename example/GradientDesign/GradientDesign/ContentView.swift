@@ -13,27 +13,30 @@ extension LinearGradient {
     }
 }
 
-let profiles: [Profile] = [Profile(name: "Emma Watson", role: "Movie Actor and Model", image: "ew"), Profile(name: "James Phelps", role: "Future Bank Account", image: "jp"), Profile(name: "Benedict Cumberbatch", role: "Revolut Account", image: "bc")]
+let profiles: [Profile] = [Profile(name: "Emma Watson", role: "Movie Actor and Model", image: "ew"), Profile(name: "James Phelps", role: "Future Bank Account", image: "jp"), Profile(name: "Benedict", role: "Revolut Account", image: "bc")]
 
 struct ContentView: View {
-    @State var index: Int = 0
+    @State var index: Int = 1
     
     var body: some View {
         ZStack {
             LinearGradient(Color("CardBlue"), Color("CardPink")).ignoresSafeArea()
             
-            VStack {
-                Text(profiles[index].name).font(Font.system(size: 40))
-                    .foregroundColor(Color("PaleGray"))
+            GeometryReader { geometry in
                 
-                Text(profiles[index].role).font(Font.system(size: 22))
-                    .foregroundColor(Color("PaleGray").opacity(0.4))
-                    .padding(.bottom, 350+100)
-                
+                VStack(alignment: .center) {
+                    ScrollView(.horizontal, showsIndicators: false, content: {
+                        HStack(spacing: 14) {
+                            Spacer(minLength: (geometry.size.width-300)/2 - 14)
+                            ForEach(0..<profiles.count) { idx in
+                                CardView(profile: profiles[idx])
+                            }
+                            Spacer(minLength: (geometry.size.width-300)/2 - 14)
+                        }
+                    })
+                    
+                }.frame(width: geometry.size.width, height: geometry.size.height)
             }
-            
-            CardView(profile: profiles[index])
-                .padding(.top, 100)
         }
     }
 }
