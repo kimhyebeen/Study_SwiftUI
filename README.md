@@ -7,6 +7,10 @@ Learn how to use SwiftUI and practice SwiftUI by creating various screens.
 
 ## ScreenShots
 
+지금까지 구현한 화면들의 스크린샷입니다.
+
+<img src="./image/screenshot01.png" width=1300 />
+
 ## Example
 ### A. 회원가입 폼을 만들며 배우는 양방향 바인딩
 * 21.01.07
