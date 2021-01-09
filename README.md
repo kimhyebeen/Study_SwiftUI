@@ -65,6 +65,19 @@ Learn how to use SwiftUI and practice SwiftUI by creating various screens.
 
 <br />
 
+### E. LinearGraph
+* 21.01.09
+* [디자인 참고 사이트](https://iosexample.com/a-list-of-swiftui-animation-library-for-ios/)
+* [코드 보기 (👉클릭)](./example/LinearGraph)
+<details>
+<summary>스크린샷 보기 (👉클릭)</summary>
+<div markdown="1">
+<img src="./example/LinearGraph/screen.png" width=500 />
+</div>
+</details>
+
+<br />
+
 ## Reference
 * [SwiftUI 튜토리얼 전체리스트](https://medium.com/harrythegreat/swiftui-%ED%8A%9C%ED%86%A0%EB%A6%AC%EC%96%BC-%EC%A0%84%EC%B2%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8-f0f2b949743b)
 * [zeddios.tistory](https://zeddios.tistory.com/category/SwiftUI?page=2)
